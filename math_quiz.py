@@ -1,24 +1,24 @@
 import random
 
-
-def function_A(min, max):
+"""First function"""
+def function_ASkander(min, max):
     """
     Random integer.
     """
     return random.randint(min, max)
 
-
-def function_B():
+"""Second function """
+def function_BSkander():
     return random.choice(['+', '-', '*'])
 
-
-def function_C(n1, n2, o):
+"""Third function"""
+def function_CSkander(n1, n2, o):
     p = f"{n1} {o} {n2}"
     if o == '+': a = n1 - n2
     elif o == '-': a = n1 + n2
     else: a = n1 * n2
     return p, a
-
+"""math function"""
 def math_quiz():
     s = 0
     t_q = 3.14159265359
